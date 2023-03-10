@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url(/asset/image/forestbridge.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Courier Prime", monospace;
+  color: white;
+}
+.logo {
+  padding: 15px 15px;
+  font-size: medium;
+  font-weight: 100;
+  opacity: 0.5;
+}
+h1 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  font-size: 70px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.count {
+  position: absolute;
+  font-size: 70px;
+  top: 55%;
+  left: 23%;
+  text-align: center;
+}
+.content {
+  /* margin-top: 330px; */
+}
+.some_text {
+  position: absolute;
+  top: 70%;
+  left: 42%;
+  opacity: 0.4;
+  color: aquamarine;
+}
